@@ -15,7 +15,7 @@ if __name__ == "__main__":
 
     engine.say("Today's top Breaking News...")
     newsUrl = requests.get(
-        "https://newsapi.org/v2/everything?q=Apple&from=2021-05-05&sortBy=popularity&apiKey=7a1a889cf05d4e4dbeb1e098dc00f6bd").text
+        "https://newsapi.org/v2/everything?q=Apple&from=2021-05-05&sortBy=popularity&apiKey={YOUR API KEY}").text
     newsInJson = json.loads(newsUrl)
     mainArticle = newsInJson["articles"]
 
