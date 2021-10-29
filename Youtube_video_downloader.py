@@ -6,7 +6,7 @@ video = youtube.streams.first()
 # video = youtube.streams.all() --> It will show all quality of video
 # for i in video:
 #     print(i)
-video.download("C:/Users/arthp/OneDrive/Desktop/Extra")
+video.download("{Location where you want to save video}")
 
 '''
 --> WE can get following information from video:
